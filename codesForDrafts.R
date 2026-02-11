@@ -6,7 +6,9 @@ rm(list = ls())
 # read in data ------------------------------------------------------------
 #set working directory
 
-filename="C:/Users/patri/OneDrive/Documents/GitHub/hw-test/theFile.csv"
+
+#Do not read file locally - copy from github
+filename="https://github.com/DACSS690VMcGrath/hw-test/raw/main/theFile.csv"
 mydata=read.csv(filename)
 
 
